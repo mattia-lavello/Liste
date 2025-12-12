@@ -4,9 +4,12 @@ public class ArrayListA {
         l1.addTail(new Nodo("Mario"));
         l1.addTail(new Nodo("Giulio"));
         l1.addTail(new Nodo("Francesco"));
-        l1.addTail(new Nodo("Luca"));
-        l1.addTail(new Nodo("Ludovica"));
+        l1.addHead(new Nodo("Luca"));
+        l1.addHead(new Nodo("Ludovica"));
         l1.addHead(new Nodo("Sanji"));
+        l1.add("Rayan");
+        l1.remove("Sanji");
+        l1.exists("Ludovica");
 
         System.out.println(l1);
     }
