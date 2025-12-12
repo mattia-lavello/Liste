@@ -1,0 +1,13 @@
+public class ArrayListA {
+    public static void main(String[] args) throws Exception {
+        Lista l1 = new Lista();
+        l1.addTail(new Nodo("Mario"));
+        l1.addTail(new Nodo("Giulio"));
+        l1.addTail(new Nodo("Francesco"));
+        l1.addTail(new Nodo("Luca"));
+        l1.addTail(new Nodo("Ludovica"));
+        l1.addHead(new Nodo("Sanji"));
+
+        System.out.println(l1);
+    }
+}
