@@ -10,7 +10,11 @@ public class ArrayListA {
         l1.add("Rayan");
         l1.remove("Sanji");
         l1.exists("Ludovica");
-
+        
+        System.out.println("Ho trovato: " + l1.find("Ludovica") + "\n");
         System.out.println(l1);
+        l1.isEmpty();
+        
     }
 }
+
